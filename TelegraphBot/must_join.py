@@ -18,12 +18,12 @@ async def must_join_channel(bot: Client, msg: Message):
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             await msg.reply(
-                f"You must join [this channel]({link}) to use me !",
+                f"أنضم الى قناة البوت [this channel]({link}) حتى تستطيع استخدامي !",
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("✨ Join Channel ✨", url=link)]
+                    [InlineKeyboardButton("✨ أنضم للقناة ✨", url=link)]
                 ])
             )
             await msg.stop_propagation()
     except ChatAdminRequired:
-        print(f"I'm not admin in the MUST_JOIN chat : {MUST_JOIN} !")
+        print(f" أنا لست ادمن في القناة : {MUST_JOIN} !")
