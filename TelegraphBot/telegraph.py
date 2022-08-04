@@ -5,8 +5,8 @@ from pyrogram.types import Message
 
 extensions = ["jpg", "jpeg", "png", "gif", "mp4"]
 size_limit = 5242880
-size_error = "Files with size more than 5 MB are not accepted."
-status_text = "Converting and Uploading..."
+size_error = "الملفات التي يزيد حجمها عن 5 ميغا بايت غير مقبولة."
+status_text = "جار التحويل والتحميل..."
 
 
 async def work_to_do(message: Message):
@@ -16,7 +16,7 @@ async def work_to_do(message: Message):
     if message.document:
         extension = message.document.file_name[-3:]
         if extension not in extensions:
-            await message.reply("This format is not supported by telegraph", quote=True)
+            await message.reply("لا يدعم التلغراف هذا التنسيق", quote=True)
             return
         elif message.document.file_size > size_limit:
             await message.reply(size_error, quote=True)
@@ -32,7 +32,7 @@ async def work_to_do(message: Message):
             file = f'downloads/{name_format}.jpg'
             os.remove(sticker)
         else:
-            await message.reply("Animated Stickers are not supported yet.", quote=True)
+            await message.reply("لم يتم دعم الملصقات المتحركة حتى الآن.", quote=True)
             return
     elif message.photo:
         if message.photo.file_size > size_limit:
@@ -59,7 +59,7 @@ async def work_to_do(message: Message):
         status = await message.reply(status_text, quote=True)
         file = await message.download(file_name=f"{name_format}.gif")
     else:
-        await message.reply("This is not one of the supported types.", quote=True)
+        await message.reply("هذا ليس أحد الأنواع المدعومة.", quote=True)
         return
     url = await upload(file)
     os.remove(file)
