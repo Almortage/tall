@@ -1,6 +1,6 @@
 {
   "name": "Telegraph Bot",
-  "description": "Telegram bot to upload media to Telegra.ph",
+  "description": "استخراج رابط الصورة والفيديو والمتحرڪة",
   "logo": "https://telegra.ph/file/365d147816bf1295226b9.jpg",
   "keywords": [
     "telegram",
@@ -17,7 +17,7 @@
       "size": "free"
     }
   },
-  "repository": "https://github.com/StarkBotsIndustries/TelegraphBot",
+  "repository": "https://github.com/alhajjim/tlgraph",
   "addons": [
     {
        "options": {
@@ -29,32 +29,32 @@
 
   "env": {
     "ENVIRONMENT": {
-      "description": "Don't change ANYTHING.",
+      "description": "لا تغير شي",
       "required": true,
       "value": "ANYTHING"
     },
     "API_ID": {
-      "description": "Get this value from my.telegram.org.",
+      "description": "ايبي ايدي",
       "required": true,
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org.",
+      "description": "ايبي هاش",
       "required": true,
       "value": ""
     },
     "BOT_TOKEN": {
-      "description": "Obtain a Telegram bot token by contacting @BotFather",
+      "description": "توڪن بوتڪك",
       "required": true,
       "value": ""
     },
     "MUST_JOIN": {
-      "description": "Not compulsory. Obtain your Telegram Chat's username/id",
+      "description": "معࢪف قناتڪك بدون @",
       "required": false,
       "value": ""
     },
     "OWNER_ID": {
-      "description": "Obtain your Telegram ID",
+      "description": "ايدي المطوࢪ",
       "required": true,
       "value": ""
     }
