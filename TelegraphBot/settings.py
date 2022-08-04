@@ -40,7 +40,7 @@ async def settings(_, msg: Message):
             option2 = f"Admins Only {tick}"
         SESSION.close()
         await msg.reply(
-            "Choose, who can use this bot in your group!",
+            "اختر من يمكنه استخدام هذا الروبوت في مجموعتك!",
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton(f"Allow Usage : {option1}", callback_data="everyone")],
                 [InlineKeyboardButton(f"Allow Usage : {option2}", callback_data="admins_only")]
