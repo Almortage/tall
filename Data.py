@@ -13,7 +13,7 @@ class Data:
 
 لمشاهدة "أنواع الوسائط المدعومة" ، انقر فوق الزر ذي الصلة أدناه.
 استخدم الأزرار الأخرى لمعرفة المزيد عني وعن استخداماتي.
-By @YY8GG
+By : @YY8GG 📂
     """
 
     # Help Message
@@ -64,7 +64,7 @@ By @YY8GG
     home_buttons = [
         [InlineKeyboardButton("✨ حالة البوت والمزيد من الروبوتات ✨", url="https://t.me/YY8GG")],
         [InlineKeyboardButton("🎇 أنواع الوسائط المدعومة 🎇", callback_data="supported_media_types")],
-        [InlineKeyboardButton("Close 🔐", callback_data="close")],
+        [InlineKeyboardButton("أغلاق 🔐", callback_data="close")],
         [InlineKeyboardButton(text="🏠 العودة للمنزل 🏠", callback_data="home")],
     ]
 
