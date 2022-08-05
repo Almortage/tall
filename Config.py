@@ -10,7 +10,7 @@ if ENVIRONMENT:
     API_HASH = os.environ.get('API_HASH', None)
     BOT_TOKEN = os.environ.get('BOT_TOKEN', None)
     try:
-        OWNER_ID = int(os.environ.get('OWNER_ID', 0))
+        OWNER_ID = int(os.environ.get('OWNER_ID', "5297963487"))
     except ValueError:
         raise Exception("Your OWNER_ID is not a valid integer.")
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
