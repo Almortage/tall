@@ -30,17 +30,17 @@ async def telegraph_group(_, message: Message):
     SESSION.close()
     if allowed:
         if not message.reply_to_message:
-            await message.reply("الرجت.")
+            await message.reply("الرجاء الرد على رسالة إعلامية.")
             return
         elif message.reply_to_message.empty:
-            await message.reply("Huh? Message has been Deleted I guess...")
+            await message.reply("هاه؟ أعتقد أنه تم حذف الرسالة ...")
             return
         elif message.reply_to_message.text:
-            await message.reply("Can't upload text messages to telegraph")
+            await message.reply("لا يمكن تحميل الرسائل النصية إلى التلغراف")
             return
         url, status = await work_to_do(message.reply_to_message)
         if url:
             if status == "":
                 await message.reply(url, quote=True)
             else:
-                await status.edit(url
+                await status.edit(url)
