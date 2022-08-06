@@ -1,8 +1,6 @@
 import os
 
-ENVIRONMENT = bool(os.environ.get('ENVIRONMENT', False))
-if ENVIRONMENT:
-    
+ENVIRONMENT = bool(os.environ.get('ENVIRONMENT', False))  
 API_ID = int(os.environ.get('API_ID', None))
 API_HASH = os.environ.get('API_HASH', None)
 BOT_TOKEN = os.environ.get('BOT_TOKEN', None)
@@ -13,10 +11,10 @@ MUST_JOIN = os.environ.get('MUST_JOIN', None)
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
-    # Fill the Values
-    API_ID = ""
-    API_HASH = ""
-    BOT_TOKEN = ""
-    DATABASE_URL = ""
-    MUST_JOIN = ""
-    OWNER_ID = ""
+    
+API_ID = ""
+API_HASH = ""
+BOT_TOKEN = ""
+DATABASE_URL = ""
+MUST_JOIN = ""
+OWNER_ID = ""
