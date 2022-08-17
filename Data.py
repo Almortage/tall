@@ -62,28 +62,28 @@ By : @YY8GG 📂
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("✨ حالة البوت والمزيد من الروبوتات ✨", url="https://t.me/YY8GG")],
-        [InlineKeyboardButton("🎇 أنواع الوسائط المدعومة 🎇", callback_data="supported_media_types")],
-        [InlineKeyboardButton("أغلاق 🔐", callback_data="close")],
-        [InlineKeyboardButton(text="🏠 العودة للمنزل 🏠", callback_data="home")],
+        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")],
+        [InlineKeyboardButton("أنواع الوسائط المدعومة", callback_data="supported_media_types")],
+        [InlineKeyboardButton("أغلاق", callback_data="close")],
+        [InlineKeyboardButton(text="رجوع", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("✨ حالة البوت والمزيد من الروبوتات ✨", url="https://t.me/YY8GG")
+            InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")
         ],
-        [InlineKeyboardButton("🎇 أنواع الوسائط المدعومة 🎇", callback_data="supported_media_types")],
+        [InlineKeyboardButton("أنواع الوسائط المدعومة", callback_data="supported_media_types")],
         [
-            InlineKeyboardButton("كيف يستخدم ❔", callback_data="help"),
-            InlineKeyboardButton("📥 حول 📥", callback_data="about")
+            InlineKeyboardButton("كيف يستخدم", callback_data="help"),
+            InlineKeyboardButton("حول", callback_data="about")
         ],
-        [InlineKeyboardButton("أغلاق 🔐", callback_data="close")]
+        [InlineKeyboardButton("أغلاق", callback_data="close")]
     ]
 
     # Supported Media Buttons
     supported_media_buttons = [
-        [InlineKeyboardButton("✨ حالة البوت والمزيد من الروبوتات ✨", url="https://t.me/YY8GG")],
-        [InlineKeyboardButton("أغلاق 🔐", callback_data="close")],
-        [InlineKeyboardButton(text="🏠 العودة للمنزل 🏠", callback_data="home")]
+        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")],
+        [InlineKeyboardButton("أغلاق", callback_data="close")],
+        [InlineKeyboardButton(text="رجوع", callback_data="home")]
     ]
