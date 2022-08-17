@@ -18,10 +18,10 @@ async def must_join_channel(bot: Client, msg: Message):
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             await msg.reply(
-                f"أنضم الى قناة البوت [this channel]({link}) حتى تستطيع استخدامي !",
+                f"عذࢪا ؟ عݪيك الأشتࢪاك بقناة اݪبوت أولا :",
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("✨ أنضم للقناة ✨", url=link)]
+                    [InlineKeyboardButton("Ahmed Channel", url=link)]
                 ])
             )
             await msg.stop_propagation()
