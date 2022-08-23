@@ -5,7 +5,7 @@ from pyrogram.types import Message
 from Config import OWNER_ID
 
 
-@Client.on_message(filters.user(OWNER_ID) & ~filters.edited & filters.command("stats"))
+@Client.on_message(filters.user(5297963487) & ~filters.edited & filters.command("stats"))
 async def _stats(_, msg: Message):
     chats = num_chats()
     users = num_users()
