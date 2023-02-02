@@ -21,7 +21,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 f"عذࢪا ؟ عݪيك الأشتࢪاك بقناة اݪبوت أولا :",
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("Ahmed Channel", url=link)]
+                    [InlineKeyboardButton("᥉᥆υᖇᥴᥱ ᥉ᥱꪔ᥆", url=link)]
                 ])
             )
             await msg.stop_propagation()
