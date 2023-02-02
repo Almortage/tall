@@ -42,7 +42,7 @@ class Data:
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")],
+        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/FTTUTY")],
         [InlineKeyboardButton("أنواع الوسائط المدعومة", callback_data="supported_media_types")],
         [InlineKeyboardButton("أغلاق", callback_data="close")],
         [InlineKeyboardButton(text="رجوع", callback_data="home")],
@@ -51,7 +51,7 @@ class Data:
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")
+            InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/FTTUTY")
         ],
         [InlineKeyboardButton("أنواع الوسائط المدعومة", callback_data="supported_media_types")],
         [
@@ -63,7 +63,7 @@ class Data:
 
     # Supported Media Buttons
     supported_media_buttons = [
-        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")],
+        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/FTTUTY")],
         [InlineKeyboardButton("أغلاق", callback_data="close")],
         [InlineKeyboardButton(text="رجوع", callback_data="home")]
     ]
