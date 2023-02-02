@@ -22,9 +22,9 @@ class Data:
     ABOUT = """
 **About This Bot** 
 
-السورس : @YY8GG
+السورس : @FTTUTY
 
-المطور : @KU_KX
+المطور : @DEV_SAMIR
     """
 
     SUPPORTED_MEDIA_TYPES = """
