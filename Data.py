@@ -22,9 +22,9 @@ class Data:
     ABOUT = """
 **About This Bot** 
 
-السورس : @FTTUTY
+السورس : @AlmortagelTech
 
-المطور : @DEV_SAMIR
+المطور : @Almortagel_12
     """
 
     SUPPORTED_MEDIA_TYPES = """
@@ -42,7 +42,7 @@ class Data:
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/FTTUTY")],
+        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/AlmortagelTech")],
         [InlineKeyboardButton("أنواع الوسائط المدعومة", callback_data="supported_media_types")],
         [InlineKeyboardButton("أغلاق", callback_data="close")],
         [InlineKeyboardButton(text="رجوع", callback_data="home")],
@@ -51,7 +51,7 @@ class Data:
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/FTTUTY")
+            InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/AlmortagelTech")
         ],
         [InlineKeyboardButton("أنواع الوسائط المدعومة", callback_data="supported_media_types")],
         [
@@ -63,7 +63,7 @@ class Data:
 
     # Supported Media Buttons
     supported_media_buttons = [
-        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/FTTUTY")],
+        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/AlmortagelTech")],
         [InlineKeyboardButton("أغلاق", callback_data="close")],
         [InlineKeyboardButton(text="رجوع", callback_data="home")]
     ]
